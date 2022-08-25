@@ -33,6 +33,7 @@ p, .tiny-text, figcaption {
 .img-container {
   display: flex;
   flex-wrap: wrap;
+  justify-content: center;
 }
 
 figure {
@@ -41,8 +42,8 @@ figure {
 }
 
 img {
-  max-width: 18em;
-  max-height: 18em;
+  max-width: 12em;
+  max-height: 12em;
   border: 5px solid white;
   position: relative;
   left: -10px;
@@ -65,7 +66,25 @@ footer {
   margin-bottom: 10em;
 }
 
+button {
+  border: outset var(--text-color);
+  background-color: var(--text-color);
+  color: var(--color-1);
+}
+
+.link-settings {
+  color: var(--color-1);
+  text-shadow: 0 1px 2px var(--color-1);
+  text-decoration-color: var(--text-color);
+  text-decoration-thickness: 1px;
+}
+
 .tiny-text {
   font-size: 0.3125em;
   color: var(--color-1);
+}
+
+.big {
+  min-width: 24em;
+  min-height: 24em;
 }
