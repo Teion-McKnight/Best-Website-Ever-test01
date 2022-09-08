@@ -30,10 +30,25 @@ p, .tiny-text, figcaption {
   text-shadow: 0 1px 1px black;
 }
 
+.big-bar {
+ width: 80%;
+}
+
+.med-bar {
+
+}
+
+.lil-bar {
+
+}
+
 .img-container {
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
+  border: .35em solid #219EBC;
+  background-color: #219EBC;
+  background-blend-mode: ;
 }
 
 figure {
@@ -85,6 +100,6 @@ button {
 }
 
 .big {
-  min-width: 24em;
   min-height: 24em;
+  min-width: 24em;
 }
